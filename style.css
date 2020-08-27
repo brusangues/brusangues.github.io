@@ -54,6 +54,15 @@ p {
     margin-top: 4px;
 }
 
+a {
+    color: #000099;
+    text-decoration: None;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
 
 @media only screen and (max-width:768px){
     p {
