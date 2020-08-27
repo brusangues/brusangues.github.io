@@ -37,12 +37,12 @@ body {
 }
 .left-block {
     float: left;
-    max-width: 400px;
+    max-width: 350px;
     padding: 0 40px 0 0;
 }
 .right-block {
     float: right;
-    max-width: 400px;
+    max-width: 350px;
 }
 
 h2 {
