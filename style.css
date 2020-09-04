@@ -6,45 +6,6 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.header-block {
-    margin-top:15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-}
-
-.header-left p{
-    word-wrap: break-word;
-    padding-right: 0px;
-}
-.header-left img {
-    display: None;
-}
-
-.header-right img{
-    max-height: 180px;
-    border-radius: 150px;
-    margin: 10px 0 10px 30px;
-}
-
-#division {
-    border: 2px solid;
-    border-radius: 2px;
-}
-
-.subheader-block {
-    overflow: auto;
-}
-.left-block {
-    float: left;
-    max-width: 350px;
-    padding: 0 40px 0 0;
-}
-.right-block {
-    float: right;
-    max-width: 350px;
-}
-
 h2 {
     line-height: 26px;
     margin-bottom: 6px;
@@ -62,7 +23,6 @@ a:hover {
     color: blue;
     text-decoration: underline;
 }
-
 
 .topnav {
     position: fixed;
@@ -96,6 +56,55 @@ a:hover {
     color: white;
 }
 
+.header-block {
+    margin-top:15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.header-left p{
+    word-wrap: break-word;
+    padding-right: 0px;
+}
+.header-left img {
+    display: None;
+}
+
+.header-right img{
+    max-height: 180px;
+    border-radius: 150px;
+    margin: 10px 0 0px 30px;
+}
+
+.division {
+    margin-top:25px;
+    border: 2px solid;
+    border-radius: 2px;
+    background-color: black;
+}
+
+.subheader-block {
+    overflow: auto;
+    padding: 0;
+    margin:0;
+}
+.subheader-block p{
+    padding: 2px 0 0;
+    margin:0;
+}
+.left-block {
+    float: left;
+    max-width: 350px;
+    padding: 0 40px 0 0;
+    margin:0;
+}
+.right-block {
+    float: right;
+    max-width: 350px;
+    padding: 0;
+    margin:0;
+}
 
 @media only screen and (max-width:768px){
     p {
@@ -112,6 +121,16 @@ a:hover {
         line-height: 26px;
         padding-bottom: 0;
         margin-bottom: 0;
+    }
+
+    .topnav {
+        position: static;
+        margin-top: 5px;
+        right: 0px;
+        background-color:black;
+        overflow: hidden;
+        border-radius: 4px;
+    
     }
 
     .header-block{
@@ -132,13 +151,4 @@ a:hover {
         float:left;
     }
 
-    .topnav {
-        position: static;
-        margin-top: 5px;
-        right: 0px;
-        background-color:black;
-        overflow: hidden;
-        border-radius: 4px;
-    
-    }
 }
